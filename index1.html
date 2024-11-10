@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my cv</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- header start -->
+
+    <header id="Home">
+        <div class="navbar">
+            <nav>
+                <ul>
+                    <li><a href="#Home">Home</a></li>
+                    <li><a href="#About">About</a></li>
+                    <li><a href="#Education">Education</a></li>
+                    <li><a href="#Skills">Skills</a></li>
+                    <li><a href="index2.html">portfolio</a></li>
+                    
+                </ul>
+            </nav>
+        </div>
+
+        <div class="home-content">
+            <h1>Graphic Designer</h1>
+            <a href="#About" class="home-btn">More About Me</a>
+        </div>
+    </header>
+    <!-- header end -->
+
+
+    <!-- About start -->
+     <section class="about-container" id="About">
+        <div class="about-contents">
+            <div class="about-img">
+                <img class="aaa"src="2d8f4631f79d36f71472f09e54967312.jpg" alt="">
+            </div>
+            <div class="obout-text">
+                <h1>About <span class="Me">Me</span></h1>
+                <hr>
+                <h2>I am a 
+                    <span style="--i:4;" data-text="Ala'a Al-Najrey">Ala'a Al-Najrey</span>
+                    <span style="--i:3;" data-text="Graphic Designer">Graphic Designer</span>
+                    <span style="--i:2;" data-text="Web Designer">Web Designer</span>
+                    <span style="--i:1;" data-text="photographer">photographer</span>
+                </h2>
+                    <p>An ambitious and enthusiastic girl, graduated from high school with distinction of 87 
+                        and enrolled in Al-Razi School of Graphics. Experienced in graphics. </p>
+
+                        <p>I aspire to work skills and work full time to improve my skills and put in the required effort to acquire new skills.</p>
+                        <p>Committed and not interested in learning.
+                            Interested in reading and knowledgeable. Interested in the field of graphics and website interface design. </p>
+
+                         
+
+                            <div class="about-name">
+                                <div><span>Name:  </span>  Ala'a Al-Najrey</div>
+                                <div><span>Email:  </span>  Alaa@gmail.com</div>
+                                <div><span>Age:  </span>  19</div>
+                                <div><span>Adress:  </span>  yemen-ib-yareem</div>
+                            </div>
+
+            </div>
+        </div>
+
+        
+        
+        
+     </section>
+
+    <!-- About end -->
+
+
+
+
+    <!-- Education start -->
+
+    <section class="" id="Education">
+        <div class="timeline-container">
+            <div class="timeline-event">
+                <div class="blank-box"></div>
+                <div class="timeline-data">
+                    <span>2020</span>
+                </div>
+                <div class="timeline-text">
+                    <h2>I graduated from basic school</h2>
+                    <h3>May 22 School</h3>
+                    
+                </div>
+            </div>
+
+            <div class="timeline-event right-side">
+                <div class="blank-box"></div>
+                <div class="timeline-data">
+                    <span>2023</span>
+                </div>
+                <div class="timeline-text">
+                    <h2>I graduated from high school</h2>
+                    <h3>Study first aid</h3>
+                    
+                </div>
+            </div>
+
+            <div class="timeline-event ">
+                <div class="blank-box"></div>
+                <div class="timeline-data">
+                    <span>2024</span>
+                </div>
+                <div class="timeline-text">
+                    <h2>Study at an English institute</h2>
+                    <h3>Computer course at Mishkat Educational Foundation</h3>
+                    
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- Education end -->
+
+
+
+    <!-- skills Professional start -->
+
+    <section class="skills"      id="Skills">
+        <div class="skill_content">
+            <h2><span class="My">My</span> Skills Professional</h2>
+            <hr>
+            <li>
+                <h3>teamwork</h3>
+                <span class="skills-sp"><span class="skills-1"></span></span>
+            </li>
+
+            <li>
+                <h3>Communication</h3>
+                <span class="skills-sp"><span class="skills-2"></span></span>
+            </li>
+
+            <li>
+                <h3>Time Management</h3>
+                <span class="skills-sp"><span class="skills-3"></span></span>
+            </li>
+
+            <li>
+                <h3>Creative thinking</h3>
+                <span class="skills-sp"><span class="skills-4"></span></span>
+            </li>
+            <a href="#skills-Technical">Skills-Technical</a>
+
+         
+        </div>
+        
+    </section>
+    <!-- skills  Professional end -->
+
+
+
+    <!-- skills-Tecnical start -->
+ <section id="skills-Technical">
+    <div class="circle1">
+        <h1 class="num1">70%</h1>
+        <span class="text">Vscode</span>
+    </div>
+
+    <div class="circle2">
+        <h1 class="num2">85%</h1>
+        <span class="text">Photoshop</span>
+    </div>
+
+    <div class="circle3">
+        <h1 class="num3">75%</h1>
+        <span class="text">illustrator</span>
+    </div>
+
+    <div class="circle4">
+        <h1 class="num4">77%</h1>
+        <span class="text">3D Max</span>
+    </div>
+
+ </section>
+ 
+
+ <script type="text/javascript">
+    let number1=document.querySelector(".num1");
+    let circle1=document.querySelector(".circle1");
+    let counter1=0;
+
+    let time1=setInterval(()=>{
+        counter1++
+        circle1.style.background=`conic-gradient(#099f9f ${3.6 * counter1}deg,#333 0deg)`
+        number1.innertext=`${counter1}% `;
+        
+
+        if(counter1===70){
+            clearTimeout(time1);
+        }
+
+    },15)
+
+
+</script>
+
+<script type="text/javascript">
+    let number2=document.querySelector(".num2");
+    let circle2=document.querySelector(".circle2");
+    let counter2=0;
+
+    let time2=setInterval(()=>{
+        counter2++
+        circle2.style.background=`conic-gradient(#099f9f ${3.6 * counter2}deg,#333 0deg)`
+        number2.innertext=`${counter2}% `;
+        
+
+        if(counter2===85){
+            clearTimeout(time2);
+        }
+
+    },15)
+
+
+</script>
+
+<script type="text/javascript">
+    let number3=document.querySelector(".num3");
+    let circle3=document.querySelector(".circle3");
+    let counter3=0;
+
+    let time3=setInterval(()=>{
+        counter3++
+        circle3.style.background=`conic-gradient(#099f9f ${3.6 * counter3}deg,#333 0deg)`
+        number3.innerText=`${counter3}% `;
+        
+
+        if(counter3===75){
+            clearTimeout(time3);
+        }
+
+    },15)
+
+
+</script>
+
+<script type="text/javascript">
+    let number4=document.querySelector(".num4");
+    let circle4=document.querySelector(".circle4");
+    let counter4=0;
+
+    let time4=setInterval(()=>{
+        counter4++
+        circle4.style.background=`conic-gradient(#099f9f ${3.6 * counter4}deg,#333 0deg)`
+        number4.innertext=`${counter4}% `;
+        
+
+        if(counter4===77){
+            clearTimeout(time4);
+        }
+
+    },15)
+
+
+</script>
+
+    <!-- skills-Tecnical end -->
+
+
+   
+
+
+
+  
+
+    <script src="java.js"></script>
+</body>
+</html>
